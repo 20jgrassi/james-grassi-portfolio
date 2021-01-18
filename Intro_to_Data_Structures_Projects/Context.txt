@@ -1,0 +1,19 @@
+This folder contains all the Java projects I worked on during the course:
+CS187 - Intro to Data Structures
+@ University of Massachussetts Amherst
+Fall 2020, Freshman Year
+
+My work was done in the src folder of each project.
+We were given a framework of code to work with, but the bulk of the useful code in each src folder was done by me.
+
+Throughout the course, I learned to use techniques and data structures such as:
+Linked Lists
+Binary Search Trees (& Scapegoat Trees)
+Graphs
+Sets
+Hash Tables
+Heap Queues
+Breadth First Searches & Depth First Searches
+Abstract Classes & Interfaces
+
+Both .zip and unzipped versions of each project file are given.
