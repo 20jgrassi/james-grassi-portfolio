@@ -1,0 +1,22 @@
+This folder contains C projects I worked on during the course:
+CS198C - Introduction to the C Programming Language
+@ University of Massachussetts Amherst
+Spring 2020, Freshman Year
+
+Some of the code in each project was from a template,
+but the core of the programs' functionality was implemented by me.
+(Usually this work is located in the src directory, in the files other than main.c
+and in the header files in the include directory.)
+
+You can see the unaltered templates by unzipping the project.zip or
+equivalent file in each folder.
+
+Throughout the course, I learned to use techniques and data structures such as:
+Using the Bash shell
+Pointers, pointer arithmetic, referencing and dereferencing
+Dynamic memory allocation and freeing memory
+Bitwise operators
+Structs and programming in non-object-oriented languages
+Header files, C macros, and understanding the C preprocessor
+
+Both .zip and unzipped versions of each completed project file are given.
