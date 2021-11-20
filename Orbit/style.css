@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(0, 0, 32);
+}
+
+#myCanvas {
+  width: 90vw;
+  height: 45vw;
+
+  border-radius: 25px;
+  background-color: black;
+
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#dayCounter, #yearCounter {
+  color: deepskyblue;
+}
+
+#braheBlurb {
+  display:none;
+}
+
+.grid-outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+header {
+  color: aqua;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+p {
+  color: white;
+  font-family: monospace;
+  font-size: large;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Orbit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<br>
+    <canvas id="myCanvas" width="1000" height="500"></canvas>
+    <br>
+    <!--TODO: Center align-->
+
+    <div class="grid-outer">
+
+      <div class="grid-inner">
+        <header>Welcome to Orbit!</header>
+
+        <p>
+          Use W/A/S/D to explore our solar system.<br>
+          Use Q/E to zoom out/in.<br>
+          Use M to randomize the mass of everything in the solar system.
+        </p>
+
+        <header>What is this?</header>
+        <p>
+          It's a basic physics simulation I made. All of the planets are objects that obey the laws of gravity, and their movement follows naturally from that!
+        </p>
+        
+      </div>
+
+      <div class="grid-inner">
+          <header>
+            Time simulated: <br>
+            <data id="yearCounter">0</data> years
+            <data id="dayCounter">0</data> days
+          </header>
+
+          <p>Change speed of simulation:</p>
+          <input type="range" min="0" max="50" value="25" class="slider" id="timeScale">
+
+          <p>Turn on geocentrism mode: 
+            <input type="checkbox" id="braheSwitch">
+          </p>
+
+          <span id="braheBlurb">
+          <header>About geocentrism mode</header>
+          <p>
+            16th-century astronomer <a href="https://en.wikipedia.org/wiki/Tycho_Brahe">Tycho Brahe</a> thought the Sun and Moon revolved around Earth, and everything else in the solar system revolved around the Sun.<br><br>
+            His <a href="https://en.wikipedia.org/wiki/Tychonic_system">Tychonic system</a> made the observed movement of the planets make sense mathematically, fit other theories at the time, and didn't violate the Christian belief that the Earth was the center of the universe.<br><br>
+            All he was essentially doing was changing the frame of reference from the Sun's location to Earth's.
+          </p>
+          </span>
+      </div>
+  
+    </div>
+
+    <script src="simulation.js"></script>
+    <script src="ui.js"></script>
+
+  </body>
+</html>
