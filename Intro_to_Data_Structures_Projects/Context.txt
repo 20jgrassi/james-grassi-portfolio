@@ -1,4 +1,4 @@
-This folder contains all the Java projects I worked on during the course:
+This folder contains Java projects I worked on during the course:
 CS187 - Intro to Data Structures
 @ University of Massachussetts Amherst
 Fall 2020, Freshman Year
