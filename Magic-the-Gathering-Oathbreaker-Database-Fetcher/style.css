@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+#oathbreakerInput, #signatureInput {
+
+}
+
+#contextBlurb {
+  color: white;
+}
+
+#oathbreakerCard, #signatureCard {
+  width: 35%;
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: lavender;
+}
