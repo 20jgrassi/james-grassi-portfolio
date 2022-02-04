@@ -1,1 +1,2 @@
-This website contains a physics model of the solar system I built to practice JavaScript. I might have gotten a bit carried away adding features because I thought they'd be funny.
+This website contains a physics model of the solar system I built to practice JavaScript.
+It has several entertaining features which show off the capabilities of the simulation.
