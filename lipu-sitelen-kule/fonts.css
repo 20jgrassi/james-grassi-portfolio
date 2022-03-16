@@ -33,6 +33,11 @@
 }
 
 @font-face {
+  font-family: 'linja luka';
+  src: url(fonts/linja-luka-1.0.otf);
+}
+
+@font-face {
   font-family: 'linja pimeja';
   src: url(fonts/linjapimeja19.ttf);
 }
